@@ -52,7 +52,7 @@ def parse_arguments():
 
     # Ablation (new)
     parser.add_argument('--unified_destination', default=False, action='store_true', help='uses 1 B domain for all molecules')
-    parser.add_argument('--no_embedding', default=False, action='store_true', help='loss coefficients do not change during training')
+    parser.add_argument('--no_embedding', default=False, action='store_true', help='zero the embedding during infernece, rely on fp')
 
 
     args = parser.parse_args()
