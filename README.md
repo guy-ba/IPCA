@@ -32,7 +32,7 @@ From the main folder run:
 test.py is the main testing file, contains most of the hyper-parameter and configuration setting.
 
 Main setting:\
-check_testset (line 24) [Main Results: Molecule Optimization] -> True / False.\
+check_testset (line 24) [enable/disable applying the saved checkpoint on the test set, performing molecule optimization] -> True / False.\
 property (line 26) [property selection] -> M (= Multi-property).
 
 
