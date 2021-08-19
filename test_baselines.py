@@ -12,7 +12,7 @@ from property_handler import rdkit_no_error_print, property_init
 def parse_arguments():
     parser = argparse.ArgumentParser(
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
-        description='IPCA'
+        description='Multi-Property Molecular Optimization using an Integrated Poly-Cycle Architecture'
     )
     # end-end model settings
     parser.add_argument('--check_testset', default=True, action='store_true', help='get test results')
