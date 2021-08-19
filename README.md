@@ -43,4 +43,4 @@ Druing training change unified_destination and fixed_loss_coef flages (lines 57-
 
 For testing, run regularly except for these changes:
 1. Unified target domains		  -> unified_destination to True (line 54 in test.py).
-2. NO embedding 				  -> no_embedding to True (line 45 in test.py).
+2. NO embedding 				  -> no_embedding to True (line 55 in test.py).

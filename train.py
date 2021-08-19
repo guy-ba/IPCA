@@ -34,7 +34,7 @@ def parse_arguments():
     parser.add_argument('--valid_direction', type=str, default='AB', help='direction of validation translation- AB: A->B; BA: B->A')
     parser.add_argument('--plot_results', default=True, action='store_true', help='plot validation set results during end-end model training')
     parser.add_argument('--print_results', default=True, action='store_true', help='print validation results during end-end model training')
-    parser.add_argument('--rebuild_dataset', default=True, action='store_false', help='rebuild dataset files')
+    parser.add_argument('--rebuild_dataset', default=False, action='store_false', help='rebuild dataset files')
     parser.add_argument('--checkpoints_folder', type=str, default='checkpoints', help='name of folder for checkpoints saving')
     parser.add_argument('--plots_folder', type=str, default='plots_output', help='name of folder for plots saving')
     parser.add_argument('--early_stopping', type=int, default=15, help='Whether to stop training early if there is no\
